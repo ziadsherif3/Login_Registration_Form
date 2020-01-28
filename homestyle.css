@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainarea h1{
+    text-align: center;
+    color: white;
+    margin: 25px;
+    text-shadow: 1px 1px black;
+}
+#mainarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #0d0d0d;
+    width: 275px;
+    height: 225px;
+}
+#login{
+    border-radius: 25px;
+    width: 150px;
+    height: 25px;
+    margin-bottom: 25px;
+}
+#register{
+    border-radius: 25px;
+    width: 150px;
+    height: 25px;
+}
